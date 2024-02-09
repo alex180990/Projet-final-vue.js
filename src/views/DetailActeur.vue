@@ -1,6 +1,6 @@
 <template>
     <main class="conteneur">
-        <h2 class="kaushan-script-regular titre">Acteur detail !</h2>
+        <h2 class="kaushan-script-regular titre">Détail de l'acteur!</h2>
 
         <div class="carte">
 
@@ -133,7 +133,7 @@
         margin: 5px;
         padding: 5px;
         height: auto;
-        width: 925px;
+        width: 1000px;
     }
 
     .carte_detail{

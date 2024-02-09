@@ -1,6 +1,6 @@
 <template>
     <main class="conteneur">
-      <h2 class="kaushan-script-regular titre">Recherche page</h2>
+      <h2 class="kaushan-script-regular titre">Recherche</h2>
   
       <div class="haut">
         <input class="kaushan-script-regular" type="text" id="" placeholder="Quel personnage ?" @input="rechercher(name)" v-model="name"/>

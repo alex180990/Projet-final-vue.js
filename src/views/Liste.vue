@@ -1,6 +1,6 @@
 <template>
   <main class="conteneur">
-    <h2 class="kaushan-script-regular titre">Liste page</h2>
+    <h2 class="kaushan-script-regular titre">Liste des arteurs</h2>
     <div class="flex-1">
       <RouterLink :to="{ name: 'DetailActeur', params: { id: Acteur.id } }" v-for="Acteur in filteredList" :key="Acteur.id">
         <Acteur :unActeur="Acteur" />
